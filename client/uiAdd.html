@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System Add</title>
+    <script defer src="scripts/employeeAdd.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="logo"><img src="images/logo.png"><h2>CHINOOKCORP.com | Employee Management System</h2></div>
+    <nav>
+        <ul>                
+            <li><a href ="ui.html">View All Employees </a></li>
+            <li><a href ="Employee_Home.html">Dashboard </a></li>
+        </ul>
+    </nav>
+    
+    <div class="addEmployee">
+        <form>
+            <div class="addTitle">
+            <h4>Please enter a new emloyee's information and click "Add" button</h4>
+            <button id="addbtn">Add</button>
+            </div>
+            <br>
+
+            <!-- ReportTo is rendered from employeeAdd.js -->
+            <div id="addTable"></div>
+            <table>
+            <tr><td><p id="names">Last Name:   </p></td><td><input name="LastName" type="text"></td>
+            <td><p id="names">First Name:      </p></td><td><input name="FirstName" type="text"></td></tr>
+            <tr><td><p id="names">Title:       </p></td><td><input name="Title" type="text"></td>
+            <td><p id="names">Report To:       </p></td><td><select id="reportName" name="ReportsTo"></td></tr>
+            <tr><td><p id="names">Birthday:    </p></td><td><input name="BirthDate" type="text"></td>
+            <td><p id="names">Hired from:      </p></td><td><input name="HireDate" type="text"></td></tr>
+            <tr><td><p id="names">Address:     </p></td><td><input name="Address" type="text"></td>
+            <td><p id="names">City:            </p></td><td><input name="City" type="text"></td></tr>
+            <tr><td><p id="names">State:       </p></td><td><input name="State" type="text"></td>
+            <td><p id="names">Country:         </p></td><td><input name="Country" type="text"></td></tr>
+            <tr><td><p id="names">Postal Code: </p></td><td><input name="PostalCode" type="text"></td>
+            <td><p id="names">Phone Number:    </p></td><td><input name="Phone" type="text"></td></tr>
+            <tr><td><p id="names">Fax Number:  </p></td><td><input name="Fax" type="text"></td>
+            <td><p id="names">Email Address:   </p></td><td><input name="Email" type="text"></td></tr>
+            </table>
+        
+        </form>
+    </div>
+    
+</body>
+</html>

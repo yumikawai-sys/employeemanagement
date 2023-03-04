@@ -1,0 +1,214 @@
+body
+{
+    width: auto;
+    background-color: rgb(164, 203, 235);
+    color:rgb(65, 61, 61);
+    font-family:sans-serif;
+}
+.logo
+{
+    margin-left: 36px;
+    display: flex;
+}
+.logo h2
+{
+    margin-left: 20px;
+    color:rgb(54, 54, 146);
+}
+.tableEmployee
+{
+    border-radius: 5px;
+    background-color: white;
+    width:700px;
+    margin-left: 20px;
+    table-layout: fixed;
+}
+
+.renderEmployee
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+    width:1240px;
+    background-color: white;
+}
+.allemployee
+{
+    display:flex;
+    margin: 10px 40px 20px 10px;
+    padding-right: 40px;
+    
+}
+.allartist
+{
+    display:flex;
+    margin: 10px 40px 20px 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+.tableArtist
+{
+    width: 900px;
+    margin-left: 10px;
+}
+.employee
+{
+    padding: 20px 0;
+}
+nav
+{
+    text-align: right;
+    margin-right: 40px;
+    color:rgb(54, 54, 146);
+}
+li
+{
+    list-style: none;
+    padding: 10px 20px;
+    float: right;
+}
+a 
+{
+    color:inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+h1
+{
+    text-align: left;
+    margin:0px;
+    font-size:medium;
+    color: white;
+    background-color: rgb(90, 88, 87);
+    background: linear-gradient(to left, rgb(156, 154, 153), rgb(59, 59, 57));
+}
+main
+{
+    margin:0px;
+}
+#mainImage
+{
+    width: 100%;
+}
+input
+{
+    margin:8px;
+    height:30px;
+}
+fieldset
+{
+    width: 400px;
+}
+.addEmployee
+{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addEmployee input
+{
+    width: 480px;
+}
+.addArtist
+{
+    margin-top: 185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.addArtist input
+{
+    width: 480px;
+}
+#addbtn
+{
+    margin-left: 60px;
+}
+.editEmployee form
+{
+    align-items: center;
+}
+#addbtn
+{
+    width:200px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(16, 42, 156);
+    border-color: rgb(72, 72, 204); 
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
+#names
+{
+    text-align: right;
+    font-weight: bold;
+}
+.addTitle
+{
+    display: flex;
+    justify-content:space-between;
+}
+.messages
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+}
+.messages h2
+{
+    color:rgb(89, 158, 214)
+}
+.tableArtist
+{
+    table-layout: fixed;
+}
+.tdTitle
+{
+    width:40px;
+    text-align: left;
+}
+.tdValue
+{
+    width:100px;
+    text-align: left;
+    
+}
+#reportName
+{
+    margin-left:8px;
+    width:488px;
+    height:40px;
+}
+#personimg
+{
+    padding:20px;
+}
+.buttons
+{
+    display: flex;
+    flex-direction:column;
+    margin-top: 28px;
+}
+.update_btn, .delete_btn
+{
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(16, 42, 156);
+    border-color: rgb(72, 72, 204); 
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+#artisticonimg
+{
+    padding:20px;
+}
+.hiddenid 
+{
+    display: none;
+}

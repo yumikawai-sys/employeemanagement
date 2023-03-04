@@ -1,0 +1,118 @@
+body
+{
+    width: 99%;
+    height: auto;
+    background-color: rgb(164, 203, 235);
+    color:rgb(65, 61, 61);
+    font-family:sans-serif;
+}
+.logo
+{
+    margin-left: 36px;
+    display: flex;
+}
+.logo h2
+{
+    margin-left: 20px;
+    color:rgb(54, 54, 146);
+}
+nav
+{
+    text-align: right;
+    margin-right: 30px;
+    color:rgb(54, 54, 146);
+}
+.main
+{
+    width: 98%;
+}
+a 
+{
+    color:inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 18px;
+}
+.menuContent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    height: 495px;
+    width:25%;
+    margin-left: 36px;
+    box-shadow: 10px 5px 5px 5px rgba(34, 31, 31, 0.473);
+}
+.employeeContentOne 
+{
+    display: flex;
+    flex-direction: column;
+}
+.employeeContentTwo
+{
+    display: flex;
+    flex-direction: column;
+}
+.employeeContent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    background-color: white;
+    height: 250px;
+    width:20%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 5px 5px rgba(34, 31, 31, 0.473);
+}
+.artistContent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    background-color: white;
+    height: 250px;
+    width:20%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 5px 5px rgba(34, 31, 31, 0.473);
+}
+.menuTitle
+{
+    width:45%;
+    text-align: center;
+    margin-right: 40px;
+}
+.Event
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.contentData
+{
+    text-align: left;
+}
+li
+{
+    list-style: none;
+}
+.menuTitle h2
+{
+    color:rgb(54, 54, 146);
+}
+.homelink
+{
+    margin-right: 60px;
+}

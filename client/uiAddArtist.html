@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Management System Add</title>
+    <script defer src="scripts/artistAdd.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="logo"><img src="images/logo.png"><h2>CHINOOKCORP.com | Artist Management System</h2></div>
+    <nav>
+        <ul>                
+            <li><a href ="uiEditDelete.html">View All Artists </a></li>
+            <li><a href ="Artist_Home.html">Dashboard </a></li>
+        </ul>
+    </nav>
+    
+    <div class="addArtist">
+        <form>
+            <div class="addTitle">
+            <h4>Please enter a new artist's information and click "Add" button</h4>
+            <button id="addbtn">Add</button>
+            </div>
+            <br>
+
+            <div id="addTable"></div>
+            <table>
+            <tr><td><p id="names">Artist Name:   </p></td><td><input name="Name" type="text"></td>
+            </table>
+        
+        </form>
+    </div>
+    
+</body>
+</html>
